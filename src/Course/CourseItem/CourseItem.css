@@ -1,0 +1,27 @@
+.card {
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 2px #ccc;
+    overflow: hidden;
+    background: cyan;
+    margin: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 150px;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content > span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-content > span:last-child {
+    font-size: 12px;
+}
